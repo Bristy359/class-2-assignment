@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu-bar{
+	background: url("blur.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+
+}
+.overlay{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+}
+
+
+.menu-bar ul{
+	list-style: none;
+	text-align: center;
+	line-height: 70px;
+}
+
+.menu-bar ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px; 
+}
+
+.menu-bar ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.form{
+	background-color: rgba(0,0,0,0.5);
+	width: 210px;
+	margin: 100px auto;
+	padding: 20px 20px;
+	text-align: center;
+	border-radius: 10%;
+}
+
+.form input{
+	margin-top: 10px;
+	width: 190px;
+	padding: 10px 3px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+}
+
+.form .button{
+	border-bottom: none;
+	width: 60px;
+	height: 30px;
+	background-color: white;
+	margin-top: 30px;
+	padding: 5px 5px;
+}
+
+.form h2{
+	color: white;
+}
+
+.form h1{
+	color: white;
+	font-size: 35px;
+}
+
+.social-icon{
+	width: 80px;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	position: fixed;
+	top: 35%;
+	left: 0;
+	border-radius: 0 10px 10px 0;
+
+}
+
+.social-icon ul{
+	list-style: none;
+	padding: 10px 10px;
+
+}
+
+.social-icon ul li{
+	margin-top: 15px;
+}
+
+.social-icon ul li:first-child{
+	margin-top: 0px;
+
+}
+
+.social-icon ul li i{
+	color: white;
+	font-size: 28px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
